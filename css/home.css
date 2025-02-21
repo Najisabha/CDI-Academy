@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* عملنا هيك عشان كل  rem = 10px*/
+html {
+  font-size: 62.5%;
+}
+.row {
+  width: 100%;
+}
+nav {
+  background-color: #0093e9;
+  background-image: linear-gradient(
+    45deg,
+    #0093e9 0%,
+    #80d0c7 50%,
+    #7965ff 100%
+  );
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.2rem;
+}
+
+#head {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 0.8;
+  letter-spacing: 0.3rem;
+  font-size: 3.2rem;
+}
+header {
+  background-color: #0094e9b6;
+}
+header img {
+  width: 100%;
+  transform: scale(0.95);
+}
+header .row {
+  width: 100%;
+}
+header h1 {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.8;
+  letter-spacing: 0.3rem;
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+header h3 {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.8;
+  letter-spacing: 0.15rem;
+  font-size: 3.6rem;
+  margin-bottom: 2rem;
+}
+header h4 {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+header h5 {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+header .buttons {
+  margin-bottom: 5rem;
+}
+header .buttons button {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  padding: 1.5rem;
+  font-size: 2.4rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+header h1 span {
+  font-weight: 1000;
+  font-size: 3rem;
+}
+/* ============================== */
+main section.goal {
+  background-color: #4f34ff;
+}
+main section.goal .row {
+  width: 100%;
+}
+main section.goal .row h2 {
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+main section.goal .ul-goal {
+  margin-left: 20%;
+}
+main section.goal .ul-goal li:nth-child(1) {
+  margin-top: 3rem;
+}
+main section.goal .ul-goal li {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 0.8rem;
+}
+
+main section.goal img {
+  width: 60%;
+  transform: scale(1.1);
+}
+/* =========================== */
+main section.project .row {
+  width: 100%;
+}
+
+main section.project img {
+  border-radius: 1.5rem;
+}
+
+main section.project .card a i {
+  margin-right: 1rem;
+  font-size: 3rem;
+}
+main section.project .card .card-text {
+  font-size: 1.25rem;
+}
+main section.project .card .card-body a {
+  font-size: 2rem;
+}
+footer {
+  background-color: #33b4ff;
+}
+
+footer .row {
+  width: 100%;
+}
+/* ======================== */
+footer .info ul li {
+  list-style: none;
+  margin-top: 1rem;
+}
+footer .info ul li a {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+footer .info ul li a i {
+  font-size: 1.5rem;
+}
+/* ======================== */
+/* ======================== */
+
+footer .social-media h3 {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 3rem;
+  display: grid;
+}
+footer .social-media .list-inline a {
+  font-size: 2.4rem;
+  line-height: 7rem;
+  padding: 0.5rem 2rem;
+  border-radius: 10%;
+  background-color: #393939;
+  cursor: pointer;
+  display: block;
+}
+footer .social-media .list-inline a:hover {
+  background-color: rgba(81, 121, 255, 0.7);
+}
+.list-inline-item a {
+  color: white;
+}
+
+.list-inline-item:hover a:hover {
+  color: #393939;
+}
+/* ======================== */
+footer .copy_rigth a {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+/* ======================== */
+@media (max-width: 2000px) {
+  nav ul li {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+@media (max-width: 1400px) {
+  nav ul li {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+@media (max-width: 1250px) {
+  nav ul li {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+@media (max-width: 1080px) {
+  nav ul li {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
+  main section.goal .ul-goal {
+    margin-left: 3rem;
+  }
+  main section.goal .ul-goal li {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 800px) {
+  #head {
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+  header h1 {
+    margin-bottom: 0.5rem;
+  }
+  header h3 {
+    margin-bottom: 1.5rem;
+  }
+  header h4 {
+    margin-bottom: 2.5rem;
+  }
+
+  header h5 {
+    margin-bottom: 1.5rem;
+  }
+  header .buttons {
+    margin-bottom: 0.5rem;
+  }
+  header .buttons button {
+    padding: 1rem;
+    font-size: 2.4rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 3rem;
+  }
+  header h1 span {
+    font-weight: 900;
+    font-size: 3.6rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  main section.goal .ul-goal {
+    margin-left: 1rem;
+  }
+  main section.goal .ul-goal li {
+    font-size: 1.8rem;
+  }
+}
